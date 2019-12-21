@@ -1,18 +1,18 @@
 # GCI-Django-Hello-World
 Made for the sole purpose of GCI 2019
 
-Open Hello(folder) for application files
+## Open GCI(folder) for application files
 
-  ___Setting Up Django framework for python on windows:___
+  ___Setting Up Django framework for python on Linux:___
 
 
   _Installing Django:_
   
   1)Python must be installed
   
-  2)Open command prompt and go to the root directory
+  2)Open terminal and go to the root directory
         
-3)install the python package repository(PyPi) the pip tool(one time only)
+3)install the python package repository(PyPi) the pip tool(one time only) if not installed already.
   
   `-->python -m install -U pip`
       
@@ -20,7 +20,7 @@ Open Hello(folder) for application files
 
 `-->pip install virtualenv`
 
-![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resources/1.PNG)
+![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resouurces/Screenshot%20from%202019-12-21%2014-25-00.png)
       
 5)create and select a directory for your project
 
