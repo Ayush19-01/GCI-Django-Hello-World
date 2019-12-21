@@ -40,7 +40,7 @@ Made for the sole purpose of GCI 2019
 
 ![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resouurces/Screenshot%20from%202019-12-21%2014-29-02.png)
 
-___Creating and working on the project:___
+## ___Creating and working on the project:___
 
 1) Continue in the same terminal
 
