@@ -1,60 +1,61 @@
 # GCI-Django-Hello-World
 Made for the sole purpose of GCI 2019
 
-## Open GCI(folder) for application files
+### Open GCI(folder) for application files
 
-  ___Setting Up Django framework for python on Linux:___
+  ## ___Setting Up Django framework for python on Linux:___
 
 
   _Installing Django:_
   
-  1)Python must be installed
+  1) Python must be installed
   
-  2)Open terminal and go to the root directory
+  2) Open terminal and go to the root directory
         
-3)install the python package repository(PyPi) the pip tool(one time only) if not installed already.
+3) Install the python package repository(PyPi) the pip tool(one time only) if not installed already.
   
-  `-->python -m install -U pip`
+  ` $ sudo apt install python3-pip`
       
-4)install python virtual environment
+4) Install python virtual environment
 
-`-->pip install virtualenv`
+`$ pip install virtualenv`
 
 ![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resouurces/Screenshot%20from%202019-12-21%2014-25-00.png)
       
-5)create and select a directory for your project
+5) Create and select a directory for your project
 
-`-->md project`	
+` $ mkdir project`	
 
- `-->cd project`
+ `$ cd project`
  
-6)creating virtual environment(one time only)
+6) Creating virtual environment(one time only)
 
-`--> virtualenv django`
+`$ virtualenv django`
 
-![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resources/2.PNG)
+![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resouurces/Screenshot%20from%202019-12-21%2014-26-24.png)
 
 7)install django
 
-`-->pip install django`
+`$ pip install django`
 
-![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resources/3.PNG)
+![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resouurces/Screenshot%20from%202019-12-21%2014-29-02.png)
+
 ___Creating and working on the project:___
 
-1)continue with the command prompt
+1) Continue in the same terminal
 
-`-->django-admin startproject projectname`
+`$ django-admin startproject projectname`
 
-2)open the directory in which the above statement was passed		
+2) Open the directory in which the above statement was passed		
   
-3)create a views.py file as attached and edit the urls.py file as attached, make sure views.py is one folder outside the directory of urls.py
+3) Create a views.py file as attached and edit the urls.py file as attached, make sure views.py is one folder outside the directory of urls.py
   
-4)run the server locally on the prompt
+4) Run the server locally on the prompt
 
-`-->python manage.py runserver`   (make sure the current directory is the directory which hold manage.py)
+`$ python manage.py runserver`   (make sure the current directory is the directory which hold manage.py)
 
-![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resources/4.PNG)
+![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resouurces/Screenshot%20from%202019-12-21%2014-34-33.png)
   
-5)Type http://127.0.0.1:8000 in your web browser, your content would show up.
+5) Type http://127.0.0.1:8000 in your web browser, your content would show up.
 
-![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resources/5.PNG)
+![alt text](https://github.com/Ayush19-01/GCI-Django-Hello-World/blob/master/resouurces/Screenshot%20from%202019-12-21%2014-33-30.png)
